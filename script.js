@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize EmailJS with your public key
-    // Get your public key from https://dashboard.emailjs.com/admin/account
-    emailjs.init("public_key_from_emailjs_dashboard");
+    emailjs.init("qho4CSEnUk7tZxLHs");
     
     // Initialize ScrollReveal
     const sr = ScrollReveal({
@@ -108,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
             };
             
             // Send email using EmailJS
-            emailjs.send('service_id_from_emailjs', 'template_id_from_emailjs', formData)
+            emailjs.send('service_zh10zmp', 'template_bxei2d7', formData)
                 .then(function(response) {
                     formStatus.textContent = 'Message sent successfully!';
                     formStatus.className = 'form-status success';
