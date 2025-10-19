@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="project-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a6cf7"/>
+      <stop offset="100%" stop-color="#6d8dff"/>
+    </linearGradient>
+  </defs>
+  
+  <rect x="0" y="0" width="400" height="300" fill="#1e1e1e"/>
+  
+  <!-- E-commerce visualization -->
+  <rect x="50" y="50" width="300" height="200" rx="10" ry="10" fill="none" stroke="#4a6cf7" stroke-width="2"/>
+  
+  <!-- Product grid -->
+  <rect x="70" y="80" width="80" height="80" rx="5" ry="5" fill="url(#project-gradient)" opacity="0.7"/>
+  <rect x="160" y="80" width="80" height="80" rx="5" ry="5" fill="url(#project-gradient)" opacity="0.7"/>
+  <rect x="250" y="80" width="80" height="80" rx="5" ry="5" fill="url(#project-gradient)" opacity="0.7"/>
+  <rect x="70" y="170" width="80" height="60" rx="5" ry="5" fill="url(#project-gradient)" opacity="0.7"/>
+  <rect x="160" y="170" width="80" height="60" rx="5" ry="5" fill="url(#project-gradient)" opacity="0.7"/>
+  <rect x="250" y="170" width="80" height="60" rx="5" ry="5" fill="url(#project-gradient)" opacity="0.7"/>
+  
+  <!-- Cart icon -->
+  <circle cx="320" cy="60" r="15" fill="#6d8dff"/>
+  <path d="M310 60 L315 60 L318 52 L330 52 L333 60 L338 60" fill="none" stroke="white" stroke-width="2"/>
+  <circle cx="320" cy="65" r="2" fill="white"/>
+  <circle cx="330" cy="65" r="2" fill="white"/>
+</svg>

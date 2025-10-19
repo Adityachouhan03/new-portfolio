@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software & DevOps Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your EmailJS public key
+        })();
+    </script>
+</head>
+<body class="light-mode">
+    <!-- Header Section with Navigation Menu -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>DevPortfolio</h1>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                    <label class="switch">
+                        <input type="checkbox" id="theme-switch">
+                        <span class="slider round"></span>
+                    </label>
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Software & DevOps Engineer</h1>
+                <p>Building robust solutions and streamlining development workflows</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">View Projects</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    <a href="https://drive.google.com/file/d/15mC4twTJEf685ptNAHrvD0mKU4fOe8O0/view?usp=sharing" target="_blank" class="btn resume-btn">My Resume</a>
+                </div>
+            </div>
+      <div class="hero-image">
+         <img src="hero-image.svg" alt="Developer Illustration">
+         </div> 
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="profile.svg" alt="Profile Image">
+                </div>
+                <div class="about-text">
+                    <h3>Who I Am</h3>
+                    <p>I am a passionate Software and DevOps Engineer with expertise in building scalable applications and implementing efficient CI/CD pipelines. With a strong foundation in both development and operations, I bridge the gap between writing code and deploying it to production environments.</p>
+                    
+                    <h3>My Skills</h3>
+                    <div class="skills">
+                        <div class="skill-category">
+                            <h4>Programming</h4>
+                            <div class="skill-bars">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>JavaScript</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="90"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Python</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="85"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Java</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="80"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>DevOps</h4>
+                            <div class="skill-bars">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Docker</span>
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="95"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Kubernetes</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="85"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>AWS</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="90"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Tools & Frameworks</h4>
+                            <div class="skill-bars">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>React</span>
+                                        <span>92%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="92"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Node.js</span>
+                                        <span>88%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="88"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Git</span>
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" data-progress="95"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="devops">DevOps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card" data-category="web devops">
+                    <div class="project-image">
+                        <img src="project1.svg" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Microservices Platform</h3>
+                        <p>A scalable microservices architecture with Kubernetes orchestration and CI/CD pipeline integration.</p>
+                        <div class="project-tags">
+                            <span>Kubernetes</span>
+                            <span>Docker</span>
+                            <span>Go</span>
+                            <span>Jenkins</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small-btn"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn small-btn"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project Card 2 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="project2.svg" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce solution with payment integration, user authentication, and admin dashboard.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Stripe</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small-btn"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn small-btn"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project Card 3 -->
+                <div class="project-card" data-category="devops">
+                    <div class="project-image">
+                        <img src="project3.svg" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Infrastructure as Code</h3>
+                        <p>Automated cloud infrastructure provisioning with Terraform and configuration management with Ansible.</p>
+                        <div class="project-tags">
+                            <span>Terraform</span>
+                            <span>AWS</span>
+                            <span>Ansible</span>
+                            <span>Python</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small-btn"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn small-btn"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project Card 4 -->
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="project4.svg" alt="Project 4">
+                    </div>
+                    <div class="project-info">
+                        <h3>Fitness Tracking App</h3>
+                        <p>A cross-platform mobile application for tracking workouts, nutrition, and health metrics with cloud synchronization.</p>
+                        <div class="project-tags">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Redux</span>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn small-btn"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn small-btn"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modal-project-image" src="" alt="Project Image">
+                </div>
+                <div class="modal-info">
+                    <h2 id="modal-project-title"></h2>
+                    <p id="modal-project-description"></p>
+                    <div class="modal-details">
+                        <div class="modal-section">
+                            <h3>Technologies</h3>
+                            <div id="modal-project-tags" class="project-tags"></div>
+                        </div>
+                        <div class="modal-section">
+                            <h3>Key Features</h3>
+                            <ul id="modal-project-features"></ul>
+                        </div>
+                        <div class="modal-section">
+                            <h3>Links</h3>
+                            <div class="modal-links">
+                                <a id="modal-github-link" href="#" class="btn primary-btn" target="_blank"><i class="fab fa-github"></i> View Code</a>
+                                <a id="modal-demo-link" href="#" class="btn secondary-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <div class="section-header">
+                <h2>Certificates</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="certificates-slider">
+                <!-- Certificate 1 -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="project2.svg" alt="Web Development Certificate">
+                    </div>
+                    <div class="certificate-info">
+                        <h3>Web Development</h3>
+                        <p>Tech Academy</p>
+                        <span class="certificate-date">Issued: Jan 2023</span>
+                    </div>
+                </div>
+                
+                <!-- Certificate 2 -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="project4.svg" alt="React Development Certificate">
+                    </div>
+                    <div class="certificate-info">
+                        <h3>React Development</h3>
+                        <p>React Masters</p>
+                        <span class="certificate-date">Issued: Mar 2023</span>
+                    </div>
+                </div>
+                
+                <!-- Certificate 3 -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="project1.svg" alt="Backend Development Certificate">
+                    </div>
+                    <div class="certificate-info">
+                        <h3>Backend Development</h3>
+                        <p>Backend Institute</p>
+                        <span class="certificate-date">Issued: Jun 2023</span>
+                    </div>
+                </div>
+                
+                <!-- Certificate 4 -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="project3.svg" alt="DevOps & Cloud Certificate">
+                    </div>
+                    <div class="certificate-info">
+                        <h3>DevOps & Cloud</h3>
+                        <p>Cloud Academy</p>
+                        <span class="certificate-date">Issued: Oct 2023</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Feel free to reach out for collaboration opportunities or just to say hello!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>adityachouhn183@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 9238620330</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>San Francisco, CA</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Adityachouhan03" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/aditya-chouhan-71579736b/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dev"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                        <div id="form-status" class="form-status" aria-live="polite"></div>
+                        <p class="direct-email-fallback">If the form fails, email me at <a href="mailto:adityachouhn183@gmail.com">adityachouhn183@gmail.com</a>.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div id="footer-model-container"></div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>DevPortfolio</h2>
+                    <p>Software & DevOps Engineer</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-nav">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#certificates">Certificates</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <h3>Connect</h3>
+                        <div class="social-links">
+                            <a href="https://github.com/Adityachouhan03" target="_blank" class="social-link"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="https://www.linkedin.com/in/aditya-chouhan-71579736b/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                            <a href="https://drive.google.com/file/d/15mC4twTJEf685ptNAHrvD0mKU4fOe8O0/view?usp=sharing" target="_blank" class="social-link"><i class="fas fa-file-pdf"></i> Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 DevPortfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
+    <script src="footer-model.js"></script>
+    <script src="hero-model.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
